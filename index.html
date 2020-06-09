@@ -8,7 +8,7 @@
     <title>Covid-19 Stat</title>
 </head>
 <body>
-    <h1 class="title"></h1>
+    <!-- <h1 class="title"></h1>
     <div class="country-stats"></div>
     <div class="info"></div>
     <div class="error"></div>
@@ -17,7 +17,29 @@
             <option value="all">all</option>
         </select>
         
+    </div> -->
+
+    <div class="container">
+        <h1 class="tilte">
+            Statistiques du Covid 19
+        </h1>
+        <h6 class="text-muted mb-4">
+            Utilise l'API https://covid19.mathdro.id/api
+        </h6>
+        <div>
+            <div class="error"></div>
+            <div class="info"></div>
+            <div class="mb-4">
+                <select name="countries" id="countries">
+                    <option value="all">all</option>
+                </select>
+            </div>
+            <div class="country-stats"></div>      
+        </div>   
     </div>
+
+    
+
 
     <script src="index.js"></script>
 </body>
